@@ -1,0 +1,104 @@
+<!--<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link href="../../library/css/mui.min.css" rel="stylesheet" />
+	</head>
+	<body>
+		
+		<div class="mui-content" style="margin-top: 60px;">
+			<form class="mui-input-group">
+			    <div class="mui-input-row">
+			        <label>用户名</label>
+			    <input type="text" id="usernameInput" class="mui-input-clear" placeholder="请输入用户名">
+			    </div>
+			    <div class="mui-input-row">
+			        <label>密码</label>
+			        <input type="password" id="passwordInput" class="mui-input-password" placeholder="请输入密码">
+			    </div>
+			    <div class="mui-button-row">
+			        <button type="button" id="loginBtn" class="mui-btn mui-btn-primary">确认</button>
+			        <button type="button" id="resetBtn" class="mui-btn mui-btn-danger">取消</button>
+			    </div>
+			</form>
+		</div>
+		
+		<script src="../../library/js/require.js" data-main = "main"></script>
+	</body>
+	
+</html>-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+	<link href="../../library/css/mui.min.css" rel="stylesheet" />
+    
+    <style>
+		body {
+			background: url(../../library/sximages/loadBg.jpg) no-repeat;
+			background-size:100%;
+			width: 100vw;
+			height:100vh;
+		}
+		.title_img{
+			width: 60%;
+		}
+		.login_content{
+			position: relative;
+			top:15vh;
+			text-align: center;
+		}
+		.input_content{
+			margin: 0px 10vw 15px 10vw;
+		}
+		.label_icon{
+			width:15%;
+			float: left;
+		}
+		.mui-input-row label{
+			width: 15%;
+		}
+		.mui-input-row label span{
+			line-height: 70%;
+		}
+		.register_finpwd{
+			margin-top: 20px;
+		}
+		* {
+			padding: 0;
+			margin: 0;
+		}
+    </style>
+</head>
+<body id="body1">	
+	<div class="page_content"">
+		<div class="login_content">
+			<h4 style="margin-bottom: 18px; margin-top: 0;">浙江省药品集中采购平台</h4>
+			<form id="login_form">
+			<div class="mui-input-group input_content">
+				<div class=" mui-input-row " >
+					<label><span  class="mui-icon mui-icon-person-filled mui-active label_icon"></span></label>
+					<input id = 'usernameInput' name = "username" style="width:85%;"  class="mui-input " type="text" placeholder="请输入用户名/手机号" />
+				</div>
+			</div>
+			<div class="mui-input-group input_content" style="margin-bottom: 18px;">
+				<div class="mui-input-row ">
+					<label><span class="mui-icon mui-icon-locked mui-active label_icon"></span></label>
+					<input id='passwordInput' name = "password" style="width:85%;" type="password" class="mui-input-password" placeholder="请输入密码" />
+				</div>
+			</div>
+			<button formClass = 'login_content' type="button" id="loginBtn" class="mui-btn mui-btn-primary" style="width: 80%; " >登录</button>
+
+			</form>
+		</div>
+	</div>
+	
+	<script src="../../library/js/require.js" data-main = "main"></script>
+	
+</body>
+</html>

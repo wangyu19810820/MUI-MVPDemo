@@ -1,0 +1,255 @@
+{
+	"modules/mainpage/tpl.html": {
+		"resources": [
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"css/mui.min.css",
+			"modules/mainpage-about/tpl.html"
+		],
+		"refer": [
+			"modules/mainpage-about/tpl.html",
+			"modules/mainpage-chat/tpl.html",
+			"modules/mainpage-contact/tpl.html"
+		]
+	},
+	"modules/mainpage-chat/tpl.html": {
+		"resources": [
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"css/mui.min.css"
+		],
+		"refer": []
+	},
+	"modules/mainpage-about/tpl.html": {
+		"resources": [
+			"css/mui.min.css",
+			"js/mui.min.js"
+		],
+		"refer": []
+	},
+	"modules/mainpage-contact/tpl.html": {
+		"resources": [
+			"css/mui.min.css",
+			"js/mui.min.js"
+		],
+		"refer": []
+	},
+	"modules/login/tpl.html": {
+		"resources": [
+			"modules/login/presenter.js",
+			"js/require-2.1.11.js",
+			"common/config.js",
+			"css/mui.min.css",
+			"js/mui.js",
+			"modules/login/main.js",
+			"modules/login/view.js",
+			"js/ejs.min.js"
+		],
+		"refer": []
+	},
+	"module/login/tpl.html": {
+		"resources": [
+			"library/js/require.js",
+			"library/js/mui.min.js",
+			"module/login/view.js",
+			"config/global.js",
+			"module/login/main.js",
+			"library/css/mui.min.css",
+			"module/login/presenter.js",
+			"library/js/ejs.min.js",
+			"library/fonts/mui.ttf",
+			"config/http.js",
+			"module/login/zssg.css",
+			"library/sximages/loadBg.jpg",
+			"module/login/deindex.css",
+			"library/js/mui.js",
+			"library/js/share.js"
+		],
+		"refer": [
+			"module/mainpage/tpl.html"
+		]
+	},
+	"module/mainpage/tpl.html": {
+		"resources": [
+			"module/mainpage-about/tpl.html",
+			"module/mainpage-chat/tpl.html",
+			"css/deindex.css",
+			"css/mui.min.css",
+			"library/css/mui.min.css",
+			"library/js/require.js",
+			"module/mainpage/view.js",
+			"module/mainpage/main.js",
+			"library/js/mui.min.js",
+			"module/mainpage-notice/tpl.html",
+			"module/mainpage-my/tpl.html",
+			"library/js/mui.js",
+			"config/global.js",
+			"library/images/msg_32.png",
+			"library/images/chart.png",
+			"library/images/baby.png",
+			"library/images/notepad.png",
+			"library/images/list.png",
+			"library/images/touxiang.png",
+			"library/images/a.png",
+			"library/images/abc.png",
+			"library/images/b.jpg",
+			"library/images/note.png",
+			"library/images/n1.png",
+			"library/images/c1.png",
+			"library/images/c3.png",
+			"library/images/b2.png",
+			"library/images/b3.png",
+			"library/images/b4.png",
+			"library/images/b5.png",
+			"library/images/b6.png",
+			"library/images/portrait.png",
+			"library/images/notice.png"
+		],
+		"refer": [
+			"module/mainpage-contact/tpl.html",
+			"module/mainpage-chat/tpl.html",
+			"module/mainpage-about/tpl.html",
+			"module/mainpage-my/tpl.html",
+			"module/mainpage-message/tpl.html",
+			"module/mainpage-notice/tpl.html",
+			"module/chart-demo/tpl.html",
+			"module/mainpage-supervise/tpl.html"
+		]
+	},
+	"module/mainpage-notice/tpl.html": {
+		"resources": [
+			"library/fonts/mui.ttf",
+			"library/css/mui.min.css",
+			"library/js/mui.min.js",
+			"module/mainpage-notice/main.js",
+			"module/mainpage-notice/view.js",
+			"library/js/require.js",
+			"module/mainpage-notice/presenter.js",
+			"library/js/mui.js",
+			"module/mainpage-notice/tpl_sub.html",
+			"library/css/global.css"
+		],
+		"refer": [
+			"module/mainpage-notice/tpl_sub.html"
+		]
+	},
+	"module/mainpage-my/tpl.html": {
+		"resources": [
+			"library/js/mui.min.js",
+			"library/css/mui.min.css",
+			"library/fonts/mui.ttf",
+			"library/images/avatar.jpg",
+			"library/js/require.js",
+			"module/mainpage-my/main.js",
+			"module/mainpage-my/view.js",
+			"library/icon/icon.png",
+			"library/sximages/personal_bg@2x.jpg",
+			"config/http.js",
+			"config/global.js",
+			"library/css/icons-extra.css",
+			"library/icon/share.png"
+		],
+		"refer": [
+			"module/about-company/tpl.html",
+			"module/single-page/tpl.html",
+			"module/login/tpl.html",
+			"module/my-share/tpl.html"
+		]
+	},
+	"module/mainpage-notice/tpl_sub.html": {
+		"resources": [
+			"library/css/mui.min.css",
+			"library/fonts/mui.ttf",
+			"library/js/mui.min.js",
+			"config/http.js",
+			"module/mainpage-notice/main.js",
+			"library/js/require.js",
+			"module/mainpage-notice/view.js",
+			"module/mainpage-notice/presenter.js",
+			"library/js/ejs.min.js",
+			"library/css/news.css",
+			"library/css/newspp.css",
+			"library/css/swiper.min.css",
+			"library/css/dropload.css",
+			"library/css/notice_list.css",
+			"config/global.js",
+			"library/css/global.css",
+			"library/js/mui.js"
+		],
+		"refer": [
+			"module/notice-detail/tpl.html"
+		]
+	},
+	"module/notice-detail/tpl.html": {
+		"resources": [
+			"module/notice-detail/view.js",
+			"module/notice-detail/main.js",
+			"library/js/require.js",
+			"library/css/mui.min.css",
+			"library/fonts/mui.ttf",
+			"library/js/moment.min.js",
+			"library/css/global.css",
+			"module/notice-detail/presenter.js"
+		],
+		"refer": []
+	},
+	"module/about-company/tpl.html": {
+		"resources": [
+			"library/js/mui.js",
+			"library/css/mui.min.css",
+			"library/fonts/mui.ttf",
+			"library/js/require.js",
+			"module/about-company/view.js",
+			"module/about-company/main.js",
+			"module/about-company/presenter.js"
+		],
+		"refer": []
+	},
+	"module/single-page/tpl.html": {
+		"resources": [
+			"module/single-page/view.js",
+			"module/single-page/presenter.js",
+			"module/single-page/main.js",
+			"library/js/require.js",
+			"library/css/mui.min.css",
+			"library/fonts/mui.ttf"
+		],
+		"refer": []
+	},
+	"module/chart-demo/tpl.html": {
+		"resources": [
+			"module/chart-demo/view.js",
+			"module/chart-demo/main.js",
+			"library/js/require.js",
+			"library/js/echarts.js",
+			"library/css/mui.min.css",
+			"library/js/mui.min.js",
+			"config/global.js",
+			"library/css/global.css",
+			"module/chart-demo/presenter.js",
+			"library/js/demo.js",
+			"library/js/echarts.min.js"
+		],
+		"refer": []
+	},
+	"module/mainpage-supervise/tpl.html": {
+		"resources": [
+			"module/mainpage-supervise/presenter.js",
+			"library/js/echarts.min.js",
+			"module/mainpage-supervise/main.js",
+			"module/mainpage-supervise/view.js",
+			"library/css/global.css"
+		],
+		"refer": []
+	},
+	"module/my-share/tpl.html": {
+		"resources": [
+			"module/my-share/main.js",
+			"module/my-share/view.js",
+			"library/js/require.js",
+			"library/css/mui.min.css",
+			"library/fonts/mui.ttf",
+			"library/css/global.css"
+		]
+	}
+}

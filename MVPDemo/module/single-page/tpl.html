@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>单页面</title>
+    
+    <link href="../../library/css/mui.min.css" rel="stylesheet"/>
+	<link rel="stylesheet" type="text/css" href="../../library/css/global.css"/>
+    <style>
+		.title{
+			margin: 20px 0px 7px;
+			color: #000;
+			font-size: 17px;
+			background-color: #fff;
+		}
+		#setting_list div.mui-table-view-cell:after { left: 0px;}
+		#setting_list div.mui-table-view-cell:before {
+    position: absolute;
+    right: 0;
+    top: 0;
+    left: 0px;
+    height: 1px;
+    content: '';
+    -webkit-transform: scaleY(.5);
+    transform: scaleY(.5);
+    background-color: #c8c7cc;
+}
+		.powered{
+			bottom: 0; 
+			position: relative; 
+			text-align: center; 
+			width: 100%; 
+			padding-bottom:0.5rem;
+			font-size: 0.6rem; 
+			color: #aaa; 
+			line-height: 1rem;
+		}
+		.title{
+				margin: 20px 15px 7px;
+				color: #6d6d72;
+				font-size: 15px;
+			}
+		#about_company{
+			padding: 5px;
+			 word-wrap: break-word;
+			 font-size: 16px;
+		   color: rgb(69,69,69);
+		}
+		
+	</style>
+</head>
+<body>	
+	<header class="mui-bar mui-bar-nav">
+	    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+	    <h1 class="mui-title" id="title"></h1>
+	</header>
+	<div class="mui-content">
+		<div id="content"></div>
+		<nav class="powered" onclick="">易联<span id="curvar"></span><br> &copy; 2017</nav>
+	</div>
+	<script data-main="main" src="../../library/js/require.js" ></script>
+   
+</body>
+</html>

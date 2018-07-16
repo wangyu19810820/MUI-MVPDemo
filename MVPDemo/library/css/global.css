@@ -1,0 +1,25 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;	
+	font-family:Helvetica,Arial,sans-serif,"Helvetica Neue";
+}
+
+.right_center {
+	position: absolute;
+	top: 30px;
+	right: 2px;
+}
+
+.mui-bar-nav {
+    background-color: #0966a9;
+}
+.mui-bar-nav h1 {
+    color: white;
+}
+.mui-bar-nav .mui-action-back {
+	color:white;
+}
+.mui-title {
+	font-weight: bold;
+}

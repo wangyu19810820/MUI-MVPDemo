@@ -1,0 +1,444 @@
+{
+	"@platforms": [
+		"android",
+		"iPhone",
+		"iPad"
+	],
+	"id": "H567B9E88",/*应用的标识，创建应用时自动生成，勿手动修改*/
+	"name": " 浙江省药品集中采购平台",/*应用名称，程序桌面图标名称*/
+	"version": {
+		"name": "1.0.0",/*应用版本名称*/
+		"code": "83"
+	},
+	"description": "",/*应用描述信息*/
+	"icons": {
+		"72": "icon.png"
+	},
+	"launch_path": "module/login/tpl.html",/*应用的入口页面，默认为根目录下的index.html；支持网络地址，必须以http://或https://开头*/
+	"developer": {
+		"name": "",/*开发者名称*/
+		"email": "",/*开发者邮箱地址*/
+		"url": "http://www.dcloud.io"
+	},
+	"permissions": {
+		
+
+		"Cache": {
+			"description": "管理应用缓存"
+		},
+
+		"Console": {
+			"description": "跟踪调试输出日志"
+		},
+
+		"Device": {
+			"description": "访问设备信息"
+		},
+
+		"Events": {
+			"description": "应用扩展事件"
+		},
+		"File": {
+			"description": "访问本地文件系统"
+		},
+
+
+		"Invocation": {
+			"description": "使用Native.js能力"
+		},
+		
+		
+
+		"Storage": {
+			"description": "管理应用本地数据"
+		},
+
+		
+		"Runtime": {
+			"description": "访问运行期环境"
+		},
+		"XMLHttpRequest": {
+			"description": "跨域网络访问"
+		},
+		
+
+
+
+		"Webview": {
+			"description": "窗口管理"
+		},
+		"NativeUI": {
+			"description": "原生UI控件"
+		},
+		"Navigator": {
+			"description": "浏览器信息"
+		},
+		"NativeObj": {
+			"description": "原生对象"
+		},"Push":{},"Share":{}
+	},
+	"plus": {
+		"splashscreen": {
+			"autoclose": true,/*是否自动关闭程序启动界面，true表示应用加载应用入口页面后自动关闭；false则需调plus.navigator.closeSplashscreen()关闭*/
+			"waiting": true
+		},
+		"runmode": "liberate",/*应用的首次启动运行模式，可取liberate或normal，liberate模式在第一次启动时将解压应用资源（Android平台File API才可正常访问_www目录）*/
+		"signature": "Sk9JTiBVUyBtYWlsdG86aHIyMDEzQGRjbG91ZC5pbw==",/*可选，保留给应用签名，暂不使用*/
+		"distribute": {
+			"plugins": {"share":{"qq":{"appid":"1105162405","description":"QQ分享"},"sina":{"appkey":"2381519050","appsecret":"add291137b135461aaafc57e8e4d2946","redirect_uri":"http://qx.elian.net","description":"可选，新浪微博分享"},"weixin":{"appid":"wx7d25069a3bdde0c9","appsecret":"7e882c946237d7ce455b79b564e87679","description":"可选，微信分享"}},
+				"push": {
+					
+				}
+			},
+			"apple": {
+				"appid": "",/*iOS应用标识，苹果开发网站申请的appid，如io.dcloud.HelloH5*/
+				"mobileprovision": "",/*iOS应用打包配置文件*/
+				"password": "",/*iOS应用打包个人证书导入密码*/
+				"p12": "",/*iOS应用打包个人证书，打包配置文件关联的个人证书*/
+				"devices": "universal",/*iOS应用支持的设备类型，可取值iphone/ipad/universal*/
+				"frameworks": []
+			},
+			"google": {
+				"packagename": "",/*Android应用包名，如io.dcloud.HelloH5*/
+				"keystore": "",/*Android应用打包使用的密钥库文件*/
+				"password": "",/*Android应用打包使用密钥库中证书的密码*/
+				"aliasname": "",/*Android应用打包使用密钥库中证书的别名*/
+				"permissions": ["<uses-permission android:name=\"android.permission.MODIFY_AUDIO_SETTINGS\"/>","<uses-permission android:name=\"com.android.launcher.permission.INSTALL_SHORTCUT\"/>","<uses-permission android:name=\"android.permission.CHANGE_WIFI_STATE\"/>","<uses-permission android:name=\"android.permission.READ_PHONE_STATE\"/>","<uses-permission android:name=\"android.permission.VIBRATE\"/>","<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\"/>","<uses-permission android:name=\"android.permission.WAKE_LOCK\"/>","<uses-permission android:name=\"android.permission.CALL_PHONE\"/>","<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\"/>","<uses-permission android:name=\"com.android.launcher.permission.UNINSTALL_SHORTCUT\"/>"]
+			},
+			"orientation": [
+				"portrait-primary",
+				"portrait-secondary"
+			],/*应用支持的方向，portrait-primary：竖屏正方向；portrait-secondary：竖屏反方向；landscape-primary：横屏正方向；landscape-secondary：横屏反方向*/
+			"icons": {
+				"ios": {
+					"prerendered": true, /*应用图标是否已经高亮处理，在iOS6及以下设备上有效*/
+					"auto": "", /*应用图标，分辨率：512x512，用于自动生成各种尺寸程序图标*/
+					"iphone": {
+						"normal": "",/*iPhone普通屏幕程序图标，分辨率：57x57*/
+						"retina": "",/*iPhone高分屏程序图标，分辨率：114x114*/
+						"retina7": "",/*iPhone iOS7高分屏程序图标，分辨率：120x120*/
+						"spotlight-normal": "", /*iPhone Spotlight搜索程序图标，分辨率：29x29*/
+						"spotlight-retina": "", /*iPhone高分屏Spotlight搜索程序图标，分辨率：58x58*/
+						"spotlight-retina7": "",/*iPhone iOS7高分屏Spotlight搜索程序图标，分辨率：80x80*/
+						"settings-normal": "", /*iPhone设置页面程序图标，分辨率：29x29*/
+						"settings-retina": ""
+					},
+					"ipad": {
+						"normal": "", /*iPad普通屏幕程序图标，分辨率：72x72*/
+						"retina": "", /*iPad高分屏程序图标，分辨率：144x144*/
+						"normal7": "", /*iPad iOS7程序图标，分辨率：76x76*/
+						"retina7": "", /*iPad iOS7高分屏程序图标，分辨率：152x152*/
+						"spotlight-normal": "", /*iPad Spotlight搜索程序图标，分辨率：50x50*/
+						"spotlight-retina": "", /*iPad高分屏Spotlight搜索程序图标，分辨率：100x100*/
+						"spotlight-normal7": "",/*iPad iOS7 Spotlight搜索程序图标，分辨率：40x40*/
+						"spotlight-retina7": "",/*iPad iOS7高分屏Spotlight搜索程序图标，分辨率：80x80*/
+						"settings-normal": "",/*iPad设置页面程序图标，分辨率：29x29*/
+						"settings-retina": ""
+					}
+				},
+				"android": {
+					"mdpi": "", /*普通屏程序图标，分辨率：48x48*/
+					"ldpi": "", /*大屏程序图标，分辨率：48x48*/
+					"hdpi": "", /*高分屏程序图标，分辨率：72x72*/
+					"xhdpi": "",/*720P高分屏程序图标，分辨率：96x96*/
+					"xxhdpi": ""
+				}
+			},
+			"splashscreen": {
+				"ios": {
+					"iphone": {
+						"default": ""
+					},
+					"ipad": {
+						"portrait": "", /*iPad竖屏启动图片，分辨率：768x1004*/
+						"portrait-retina": "",/*iPad高分屏竖屏图片，分辨率：1536x2008*/
+						"landscape": "", /*iPad横屏启动图片，分辨率：1024x748*/
+						"landscape-retina": "", /*iPad高分屏横屏启动图片，分辨率：2048x1496*/
+						"portrait7": "", /*iPad iOS7竖屏启动图片，分辨率：768x1024*/
+						"portrait-retina7": "",/*iPad iOS7高分屏竖屏图片，分辨率：1536x2048*/
+						"landscape7": "", /*iPad iOS7横屏启动图片，分辨率：1024x768*/
+						"landscape-retina7": ""
+					}
+				},
+				"android": {
+					"mdpi": "", /*普通屏启动图片，分辨率：240x282*/
+					"ldpi": ""
+				}
+			}
+		}
+	},
+	"dependencies": {
+		"pages": {
+			"modules/mainpage/tpl.html": {
+				"resources": [
+					"js/mui.min.js",
+					"fonts/mui.ttf",
+					"css/mui.min.css",
+					"modules/mainpage-about/tpl.html"
+				],
+				"refer": [
+					"modules/mainpage-chat/tpl.html",
+					"modules/mainpage-contact/tpl.html"
+				],
+				"priority": 0
+			},
+			"modules/mainpage-chat/tpl.html": {
+				"resources": [
+					"js/mui.min.js",
+					"fonts/mui.ttf",
+					"css/mui.min.css"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"modules/mainpage-about/tpl.html": {
+				"resources": [
+					"css/mui.min.css",
+					"js/mui.min.js"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"modules/mainpage-contact/tpl.html": {
+				"resources": [
+					"css/mui.min.css",
+					"js/mui.min.js"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"modules/login/tpl.html": {
+				"resources": [
+					"modules/login/presenter.js",
+					"js/require-2.1.11.js",
+					"common/config.js",
+					"css/mui.min.css",
+					"js/mui.js",
+					"modules/login/main.js",
+					"modules/login/view.js",
+					"js/ejs.min.js"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"module/login/tpl.html": {
+				"resources": [
+					"library/js/require.js",
+					"library/js/mui.min.js",
+					"module/login/view.js",
+					"config/global.js",
+					"module/login/main.js",
+					"library/css/mui.min.css",
+					"module/login/presenter.js",
+					"library/js/ejs.min.js",
+					"library/fonts/mui.ttf",
+					"config/http.js",
+					"module/login/zssg.css",
+					"library/sximages/loadBg.jpg",
+					"module/login/deindex.css",
+					"library/js/mui.js",
+					"library/js/share.js"
+				],
+				"refer": [
+					"module/mainpage/tpl.html"
+				],
+				"priority": 0
+			},
+			"module/mainpage/tpl.html": {
+				"resources": [
+					"module/mainpage-about/tpl.html",
+					"module/mainpage-chat/tpl.html",
+					"css/deindex.css",
+					"css/mui.min.css",
+					"library/css/mui.min.css",
+					"library/js/require.js",
+					"module/mainpage/view.js",
+					"module/mainpage/main.js",
+					"library/js/mui.min.js",
+					"module/mainpage-notice/tpl.html",
+					"module/mainpage-my/tpl.html",
+					"library/js/mui.js",
+					"config/global.js",
+					"library/images/msg_32.png",
+					"library/images/chart.png",
+					"library/images/baby.png",
+					"library/images/notepad.png",
+					"library/images/list.png",
+					"library/images/touxiang.png",
+					"library/images/a.png",
+					"library/images/abc.png",
+					"library/images/b.jpg",
+					"library/images/note.png",
+					"library/images/n1.png",
+					"library/images/c1.png",
+					"library/images/c3.png",
+					"library/images/b2.png",
+					"library/images/b3.png",
+					"library/images/b4.png",
+					"library/images/b5.png",
+					"library/images/b6.png",
+					"library/images/portrait.png",
+					"library/images/notice.png"
+				],
+				"refer": [
+					"module/mainpage-contact/tpl.html",
+					"module/mainpage-message/tpl.html",
+					"module/chart-demo/tpl.html",
+					"module/mainpage-supervise/tpl.html"
+				],
+				"priority": 0
+			},
+			"module/mainpage-notice/tpl.html": {
+				"resources": [
+					"library/fonts/mui.ttf",
+					"library/css/mui.min.css",
+					"library/js/mui.min.js",
+					"module/mainpage-notice/main.js",
+					"module/mainpage-notice/view.js",
+					"library/js/require.js",
+					"module/mainpage-notice/presenter.js",
+					"library/js/mui.js",
+					"module/mainpage-notice/tpl_sub.html",
+					"library/css/global.css"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"module/mainpage-my/tpl.html": {
+				"resources": [
+					"library/js/mui.min.js",
+					"library/css/mui.min.css",
+					"library/fonts/mui.ttf",
+					"library/images/avatar.jpg",
+					"library/js/require.js",
+					"module/mainpage-my/main.js",
+					"module/mainpage-my/view.js",
+					"library/icon/icon.png",
+					"library/sximages/personal_bg@2x.jpg",
+					"config/http.js",
+					"config/global.js",
+					"library/css/icons-extra.css",
+					"library/icon/share.png"
+				],
+				"refer": [
+					"module/about-company/tpl.html",
+					"module/single-page/tpl.html",
+					"module/login/tpl.html",
+					"module/my-share/tpl.html"
+				],
+				"priority": 0
+			},
+			"module/mainpage-notice/tpl_sub.html": {
+				"resources": [
+					"library/css/mui.min.css",
+					"library/fonts/mui.ttf",
+					"library/js/mui.min.js",
+					"config/http.js",
+					"module/mainpage-notice/main.js",
+					"library/js/require.js",
+					"module/mainpage-notice/view.js",
+					"module/mainpage-notice/presenter.js",
+					"library/js/ejs.min.js",
+					"library/css/news.css",
+					"library/css/newspp.css",
+					"library/css/swiper.min.css",
+					"library/css/dropload.css",
+					"library/css/notice_list.css",
+					"config/global.js",
+					"library/css/global.css",
+					"library/js/mui.js"
+				],
+				"refer": [
+					"module/notice-detail/tpl.html"
+				],
+				"priority": 0
+			},
+			"module/notice-detail/tpl.html": {
+				"resources": [
+					"module/notice-detail/view.js",
+					"module/notice-detail/main.js",
+					"library/js/require.js",
+					"library/css/mui.min.css",
+					"library/fonts/mui.ttf",
+					"library/js/moment.min.js",
+					"library/css/global.css",
+					"module/notice-detail/presenter.js"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"module/about-company/tpl.html": {
+				"resources": [
+					"library/js/mui.js",
+					"library/css/mui.min.css",
+					"library/fonts/mui.ttf",
+					"library/js/require.js",
+					"module/about-company/view.js",
+					"module/about-company/main.js",
+					"module/about-company/presenter.js"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"module/single-page/tpl.html": {
+				"resources": [
+					"module/single-page/view.js",
+					"module/single-page/presenter.js",
+					"module/single-page/main.js",
+					"library/js/require.js",
+					"library/css/mui.min.css",
+					"library/fonts/mui.ttf"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"module/chart-demo/tpl.html": {
+				"resources": [
+					"module/chart-demo/view.js",
+					"module/chart-demo/main.js",
+					"library/js/require.js",
+					"library/js/echarts.js",
+					"library/css/mui.min.css",
+					"library/js/mui.min.js",
+					"config/global.js",
+					"library/css/global.css",
+					"module/chart-demo/presenter.js",
+					"library/js/demo.js",
+					"library/js/echarts.min.js"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"module/mainpage-supervise/tpl.html": {
+				"resources": [
+					"module/mainpage-supervise/presenter.js",
+					"library/js/echarts.min.js",
+					"module/mainpage-supervise/main.js",
+					"module/mainpage-supervise/view.js",
+					"library/css/global.css"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"module/my-share/tpl.html": {
+				"resources": [
+					"module/my-share/main.js",
+					"module/my-share/view.js",
+					"library/js/require.js",
+					"library/css/mui.min.css",
+					"library/fonts/mui.ttf",
+					"library/css/global.css"
+				],
+				"refer": [],
+				"priority": 0
+			}
+		},
+		"idle": {
+			"resources": [
+				"index.html",
+				"modules/mainpage-settting/tpl.html",
+				"css/mui.css"
+			]
+		}
+	}
+}
